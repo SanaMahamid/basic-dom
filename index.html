@@ -4,7 +4,6 @@
 <head>
     <title>DOM</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
 </head>
 
 <body>
@@ -19,6 +18,15 @@
             <div id="down" class="arrow">&darr;</div>
         </div>
     </div>
+
+    <div id="box" onmouseenter="enterColor()" onmouseleave="leaveColor()" onclick="colorMe()">Hover over me!</div>
+
+    <ul id="myList" onclick="addItem()">
+        <li>Starter item</li>
+        <li>Click us!</li>
+    </ul>
+    
+    <script src="main.js"></script>
 </body>
 
 </html>
